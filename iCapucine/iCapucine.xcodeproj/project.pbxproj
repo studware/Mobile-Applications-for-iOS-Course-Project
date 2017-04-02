@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A46FF8EA1E90F7A9000A7546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */; };
+		A46FF8EC1E90F7A9000A7546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF8EB1E90F7A9000A7546 /* ViewController.swift */; };
+		A46FF8EF1E90F7A9000A7546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46FF8ED1E90F7A9000A7546 /* Main.storyboard */; };
+		A46FF8F21E90F7A9000A7546 /* iCapucine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A46FF8F01E90F7A9000A7546 /* iCapucine.xcdatamodeld */; };
+		A46FF8F41E90F7A9000A7546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46FF8F31E90F7A9000A7546 /* Assets.xcassets */; };
+		A46FF8F71E90F7A9000A7546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */; };
+		A46FF9021E90F7A9000A7546 /* iCapucineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF9011E90F7A9000A7546 /* iCapucineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A46FF8FE1E90F7A9000A7546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46FF8DE1E90F7A9000A7546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46FF8E51E90F7A9000A7546;
+			remoteInfo = iCapucine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A46FF8E61E90F7A9000A7546 /* iCapucine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCapucine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A46FF8EB1E90F7A9000A7546 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A46FF8EE1E90F7A9000A7546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A46FF8F11E90F7A9000A7546 /* iCapucine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCapucine.xcdatamodel; sourceTree = "<group>"; };
+		A46FF8F31E90F7A9000A7546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A46FF8F61E90F7A9000A7546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A46FF8F81E90F7A9000A7546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46FF8FD1E90F7A9000A7546 /* iCapucineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCapucineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46FF9011E90F7A9000A7546 /* iCapucineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCapucineTests.swift; sourceTree = "<group>"; };
+		A46FF9031E90F7A9000A7546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A46FF8E31E90F7A9000A7546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46FF8FA1E90F7A9000A7546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A46FF8DD1E90F7A9000A7546 = {
+			isa = PBXGroup;
+			children = (
+				A46FF8E81E90F7A9000A7546 /* iCapucine */,
+				A46FF9001E90F7A9000A7546 /* iCapucineTests */,
+				A46FF8E71E90F7A9000A7546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A46FF8E71E90F7A9000A7546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46FF8E61E90F7A9000A7546 /* iCapucine.app */,
+				A46FF8FD1E90F7A9000A7546 /* iCapucineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46FF8E81E90F7A9000A7546 /* iCapucine */ = {
+			isa = PBXGroup;
+			children = (
+				A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */,
+				A46FF8EB1E90F7A9000A7546 /* ViewController.swift */,
+				A46FF8ED1E90F7A9000A7546 /* Main.storyboard */,
+				A46FF8F31E90F7A9000A7546 /* Assets.xcassets */,
+				A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */,
+				A46FF8F81E90F7A9000A7546 /* Info.plist */,
+				A46FF8F01E90F7A9000A7546 /* iCapucine.xcdatamodeld */,
+			);
+			path = iCapucine;
+			sourceTree = "<group>";
+		};
+		A46FF9001E90F7A9000A7546 /* iCapucineTests */ = {
+			isa = PBXGroup;
+			children = (
+				A46FF9011E90F7A9000A7546 /* iCapucineTests.swift */,
+				A46FF9031E90F7A9000A7546 /* Info.plist */,
+			);
+			path = iCapucineTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A46FF8E51E90F7A9000A7546 /* iCapucine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46FF9061E90F7A9000A7546 /* Build configuration list for PBXNativeTarget "iCapucine" */;
+			buildPhases = (
+				A46FF8E21E90F7A9000A7546 /* Sources */,
+				A46FF8E31E90F7A9000A7546 /* Frameworks */,
+				A46FF8E41E90F7A9000A7546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCapucine;
+			productName = iCapucine;
+			productReference = A46FF8E61E90F7A9000A7546 /* iCapucine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A46FF8FC1E90F7A9000A7546 /* iCapucineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46FF9091E90F7A9000A7546 /* Build configuration list for PBXNativeTarget "iCapucineTests" */;
+			buildPhases = (
+				A46FF8F91E90F7A9000A7546 /* Sources */,
+				A46FF8FA1E90F7A9000A7546 /* Frameworks */,
+				A46FF8FB1E90F7A9000A7546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46FF8FF1E90F7A9000A7546 /* PBXTargetDependency */,
+			);
+			name = iCapucineTests;
+			productName = iCapucineTests;
+			productReference = A46FF8FD1E90F7A9000A7546 /* iCapucineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A46FF8DE1E90F7A9000A7546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Telerik Academy - Sofia, Bulgaria";
+				TargetAttributes = {
+					A46FF8E51E90F7A9000A7546 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A46FF8FC1E90F7A9000A7546 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A46FF8E51E90F7A9000A7546;
+					};
+				};
+			};
+			buildConfigurationList = A46FF8E11E90F7A9000A7546 /* Build configuration list for PBXProject "iCapucine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A46FF8DD1E90F7A9000A7546;
+			productRefGroup = A46FF8E71E90F7A9000A7546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A46FF8E51E90F7A9000A7546 /* iCapucine */,
+				A46FF8FC1E90F7A9000A7546 /* iCapucineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A46FF8E41E90F7A9000A7546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46FF8F71E90F7A9000A7546 /* LaunchScreen.storyboard in Resources */,
+				A46FF8F41E90F7A9000A7546 /* Assets.xcassets in Resources */,
+				A46FF8EF1E90F7A9000A7546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46FF8FB1E90F7A9000A7546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A46FF8E21E90F7A9000A7546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46FF8F21E90F7A9000A7546 /* iCapucine.xcdatamodeld in Sources */,
+				A46FF8EC1E90F7A9000A7546 /* ViewController.swift in Sources */,
+				A46FF8EA1E90F7A9000A7546 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46FF8F91E90F7A9000A7546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46FF9021E90F7A9000A7546 /* iCapucineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A46FF8FF1E90F7A9000A7546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A46FF8E51E90F7A9000A7546 /* iCapucine */;
+			targetProxy = A46FF8FE1E90F7A9000A7546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A46FF8ED1E90F7A9000A7546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46FF8EE1E90F7A9000A7546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46FF8F61E90F7A9000A7546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A46FF9041E90F7A9000A7546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A46FF9051E90F7A9000A7546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A46FF9071E90F7A9000A7546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCapucine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ellapt.iCapucine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A46FF9081E90F7A9000A7546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCapucine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ellapt.iCapucine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A46FF90A1E90F7A9000A7546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCapucineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ellapt.iCapucineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCapucine.app/iCapucine";
+			};
+			name = Debug;
+		};
+		A46FF90B1E90F7A9000A7546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCapucineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ellapt.iCapucineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCapucine.app/iCapucine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A46FF8E11E90F7A9000A7546 /* Build configuration list for PBXProject "iCapucine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46FF9041E90F7A9000A7546 /* Debug */,
+				A46FF9051E90F7A9000A7546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46FF9061E90F7A9000A7546 /* Build configuration list for PBXNativeTarget "iCapucine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46FF9071E90F7A9000A7546 /* Debug */,
+				A46FF9081E90F7A9000A7546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A46FF9091E90F7A9000A7546 /* Build configuration list for PBXNativeTarget "iCapucineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46FF90A1E90F7A9000A7546 /* Debug */,
+				A46FF90B1E90F7A9000A7546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A46FF8F01E90F7A9000A7546 /* iCapucine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A46FF8F11E90F7A9000A7546 /* iCapucine.xcdatamodel */,
+			);
+			currentVersion = A46FF8F11E90F7A9000A7546 /* iCapucine.xcdatamodel */;
+			path = iCapucine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A46FF8DE1E90F7A9000A7546 /* Project object */;
+}
