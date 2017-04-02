@@ -32,6 +32,9 @@
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter flower name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ypn-gM-KLI">
                                         <rect key="frame" x="0.0" y="28.5" width="375" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="XVp-GA-04h"/>
+                                        </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -39,6 +42,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyy-6C-pbI">
                                         <rect key="frame" x="0.0" y="66.5" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="01J-lp-oVM" eventType="touchUpInside" id="c50-Mx-MTJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -53,10 +59,14 @@
                             <constraint firstItem="u9Z-zg-FcS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ArE-ZL-bNR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="flowerNameLabel" destination="xw7-n1-mhL" id="GdC-uB-wuM"/>
+                        <outlet property="nameTextField" destination="ypn-gM-KLI" id="2mj-5j-dhT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="-118" y="381"/>
         </scene>
     </scenes>
 </document>
