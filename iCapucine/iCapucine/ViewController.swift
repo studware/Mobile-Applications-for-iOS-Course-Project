@@ -79,12 +79,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         // The ViewController will be notified when the user picks an image.
         imagePickerController.delegate = self
         
-        present(imagePickerController, animated: true, completion: nil)
-        
-    }
-    
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        flowerNameLabel.text = "Default text"
+        present(imagePickerController, animated: true, completion: nil)        
     }
 }
 
