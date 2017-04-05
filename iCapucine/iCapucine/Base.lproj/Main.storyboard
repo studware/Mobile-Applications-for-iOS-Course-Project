@@ -60,8 +60,8 @@
                                     <constraint firstAttribute="trailing" secondItem="Cqs-Vk-0lJ" secondAttribute="trailing" id="IJs-2u-fom"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bYy-Ca-iPA" customClass="RatingControl" customModule="iCapucine" customModuleProvider="target">
-                                <rect key="frame" x="16" y="473" width="200" height="110"/>
+                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bYy-Ca-iPA" customClass="RatingControl" customModule="iCapucine" customModuleProvider="target">
+                                <rect key="frame" x="16" y="472" width="200" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>
