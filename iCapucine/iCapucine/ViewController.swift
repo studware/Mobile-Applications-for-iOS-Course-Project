@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBOutlet weak var nameTextField: UITextField!
     
     @IBOutlet weak var flowerNameLabel: UILabel!
+    @IBOutlet weak var ratingControl: RatingControl!
 
     @IBOutlet weak var photoImageView: UIImageView!
     

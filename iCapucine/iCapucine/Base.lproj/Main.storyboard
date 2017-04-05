@@ -76,6 +76,7 @@
                         <outlet property="flowerNameLabel" destination="8wv-MV-J7n" id="KSk-jN-esF"/>
                         <outlet property="nameTextField" destination="Cqs-Vk-0lJ" id="k1B-cu-2dt"/>
                         <outlet property="photoImageView" destination="I0x-Hv-FYr" id="DTE-rE-74N"/>
+                        <outlet property="ratingControl" destination="bYy-Ca-iPA" id="CwS-oC-AQx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
