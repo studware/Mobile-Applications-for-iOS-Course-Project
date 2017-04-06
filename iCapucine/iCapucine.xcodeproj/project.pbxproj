@@ -15,6 +15,7 @@
 		A46FF8F71E90F7A9000A7546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */; };
 		A46FF9021E90F7A9000A7546 /* iCapucineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF9011E90F7A9000A7546 /* iCapucineTests.swift */; };
 		A46FF90F1E94A826000A7546 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF90E1E94A826000A7546 /* RatingControl.swift */; };
+		A47805A31E967D1500E21525 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47805A21E967D1500E21525 /* Flower.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A46FF9011E90F7A9000A7546 /* iCapucineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCapucineTests.swift; sourceTree = "<group>"; };
 		A46FF9031E90F7A9000A7546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46FF90E1E94A826000A7546 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		A47805A21E967D1500E21525 /* Flower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */,
 				A46FF8EB1E90F7A9000A7546 /* ViewController.swift */,
 				A46FF90E1E94A826000A7546 /* RatingControl.swift */,
+				A47805A21E967D1500E21525 /* Flower.swift */,
 				A46FF8ED1E90F7A9000A7546 /* Main.storyboard */,
 				A46FF8F31E90F7A9000A7546 /* Assets.xcassets */,
 				A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */,
@@ -207,6 +210,7 @@
 			files = (
 				A46FF90F1E94A826000A7546 /* RatingControl.swift in Sources */,
 				A46FF8F21E90F7A9000A7546 /* iCapucine.xcdatamodeld in Sources */,
+				A47805A31E967D1500E21525 /* Flower.swift in Sources */,
 				A46FF8EC1E90F7A9000A7546 /* ViewController.swift in Sources */,
 				A46FF8EA1E90F7A9000A7546 /* AppDelegate.swift in Sources */,
 			);
