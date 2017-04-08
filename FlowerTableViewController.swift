@@ -99,7 +99,7 @@ class FlowerTableViewController: UITableViewController {
 
     //MARK: Private methods
     private func loadSampleFlowers() {
-        let photo1 = UIImage(named: "azalea")
+/*        let photo1 = UIImage(named: "azalea")
         let photo2 = UIImage(named: "begonia")
         let photo3 = UIImage(named: "canary creeper")
         let photo4 = UIImage(named: "crocus")
@@ -108,7 +108,7 @@ class FlowerTableViewController: UITableViewController {
         let photo7 = UIImage(named: "lilac superba")
         let photo8 = UIImage(named: "hardy geranium")
         let photo9 = UIImage(named: "magnolia")
-        let photo10 = UIImage(named: "nasturtium")
+        let photo10 = UIImage(named: "nasturtium")*/
         let photo11 = UIImage(named: "primula")
         let photo12 = UIImage(named: "Rembrandt tulips")
         let photo13 = UIImage(named: "sunflower")
@@ -116,7 +116,7 @@ class FlowerTableViewController: UITableViewController {
         let photo15 = UIImage(named: "кокиче (galanthus)")
         let photo16 = UIImage(named: "тученица(portulaca)")
         
-        guard let flower1 = Flower(name: "azalea", photo: photo1, rating: 4) else {
+/*        guard let flower1 = Flower(name: "azalea", photo: photo1, rating: 4) else {
             fatalError("Unable to instantiate flower1")}
         guard let flower2 = Flower(name: "begonia", photo: photo2, rating: 5) else {
             fatalError("Unable to instantiate flower2")}
@@ -135,7 +135,7 @@ class FlowerTableViewController: UITableViewController {
         guard let flower9 = Flower(name: "magnolia", photo: photo9, rating: 3) else {
             fatalError("Unable to instantiate flower9")}
         guard let flower10 = Flower(name: "nasturtium", photo: photo10, rating: 5) else {
-            fatalError("Unable to instantiate flower10")}
+            fatalError("Unable to instantiate flower10")}*/
         guard let flower11 = Flower(name: "primula", photo: photo11, rating: 5) else {
             fatalError("Unable to instantiate flower11")}
         guard let flower12 = Flower(name: "Rembrandt tulips", photo: photo12, rating: 2) else {
@@ -149,8 +149,10 @@ class FlowerTableViewController: UITableViewController {
         guard let flower16 = Flower(name: "тученица(portulaca)", photo: photo16, rating: 2) else {
             fatalError("Unable to instantiate flower16")}
             
-        flowers += [flower1, flower2, flower3, flower4, flower5, flower6, flower7, flower8,
-            flower9, flower10, flower11, flower12, flower13, flower14, flower15, flower16]
+  /*      flowers += [flower1, flower2, flower3, flower4, flower5, flower6, flower7, flower8,
+            flower9, flower10, flower11, flower12, flower13, flower14, flower15, flower16] */
+        
+        flowers += [flower11, flower12, flower13, flower14, flower15, flower16]
         
     }
 }

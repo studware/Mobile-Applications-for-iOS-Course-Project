@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Flower Table View Controller-->
+        <!--Your Flowers-->
         <scene sceneID="Q3t-BU-pFz">
             <objects>
                 <tableViewController id="yYO-eh-oL0" customClass="FlowerTableViewController" customModule="iCapucine" customModuleProvider="target" sceneMemberID="viewController">
@@ -56,7 +56,13 @@
                             <outlet property="delegate" destination="yYO-eh-oL0" id="a8J-BT-rBC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Pk3-44-pxO"/>
+                    <navigationItem key="navigationItem" title="Your Flowers" id="Pk3-44-pxO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="vHW-e6-HO7">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="a3V-lx-sLi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="urm-Xg-sMd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
