@@ -59,7 +59,7 @@
                     <navigationItem key="navigationItem" title="Your Flowers" id="Pk3-44-pxO">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vHW-e6-HO7">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="a3V-lx-sLi"/>
+                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="AddItem" id="a3V-lx-sLi"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
