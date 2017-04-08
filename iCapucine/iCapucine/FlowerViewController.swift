@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FlowerViewController.swift
 //  iCapucine
 //
 //  Created by Angela Teneva on 4/2/17.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
+class FlowerViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
     
     //MARK: Properties
     
     @IBOutlet weak var nameTextField: UITextField!
-    
-    @IBOutlet weak var flowerNameLabel: UILabel!
+
     @IBOutlet weak var ratingControl: RatingControl!
 
     @IBOutlet weak var photoImageView: UIImageView!
@@ -41,7 +40,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        flowerNameLabel.text = textField.text
+
     }
     
     //MARK: UIImagePickerControllerDelegate

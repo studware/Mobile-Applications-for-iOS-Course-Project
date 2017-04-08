@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A46FF8EA1E90F7A9000A7546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */; };
-		A46FF8EC1E90F7A9000A7546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF8EB1E90F7A9000A7546 /* ViewController.swift */; };
+		A46FF8EC1E90F7A9000A7546 /* FlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF8EB1E90F7A9000A7546 /* FlowerViewController.swift */; };
 		A46FF8EF1E90F7A9000A7546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46FF8ED1E90F7A9000A7546 /* Main.storyboard */; };
 		A46FF8F21E90F7A9000A7546 /* iCapucine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A46FF8F01E90F7A9000A7546 /* iCapucine.xcdatamodeld */; };
 		A46FF8F41E90F7A9000A7546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46FF8F31E90F7A9000A7546 /* Assets.xcassets */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		A46FF8E61E90F7A9000A7546 /* iCapucine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCapucine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A46FF8EB1E90F7A9000A7546 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A46FF8EB1E90F7A9000A7546 /* FlowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerViewController.swift; sourceTree = "<group>"; };
 		A46FF8EE1E90F7A9000A7546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A46FF8F11E90F7A9000A7546 /* iCapucine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCapucine.xcdatamodel; sourceTree = "<group>"; };
 		A46FF8F31E90F7A9000A7546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */,
-				A46FF8EB1E90F7A9000A7546 /* ViewController.swift */,
+				A46FF8EB1E90F7A9000A7546 /* FlowerViewController.swift */,
 				A46FF90E1E94A826000A7546 /* RatingControl.swift */,
 				A47805A21E967D1500E21525 /* Flower.swift */,
 				A47805A41E96DB6500E21525 /* FlowerTableViewCell.swift */,
@@ -218,7 +218,7 @@
 				A46FF90F1E94A826000A7546 /* RatingControl.swift in Sources */,
 				A46FF8F21E90F7A9000A7546 /* iCapucine.xcdatamodeld in Sources */,
 				A47805A31E967D1500E21525 /* Flower.swift in Sources */,
-				A46FF8EC1E90F7A9000A7546 /* ViewController.swift in Sources */,
+				A46FF8EC1E90F7A9000A7546 /* FlowerViewController.swift in Sources */,
 				A47805A51E96DB6500E21525 /* FlowerTableViewCell.swift in Sources */,
 				A46FF8EA1E90F7A9000A7546 /* AppDelegate.swift in Sources */,
 			);
