@@ -45,9 +45,9 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="nameLabel" destination="Vdi-Rt-jbq" id="VpY-Xu-s4e"/>
-                                    <outlet property="photoImageView" destination="g8Y-CC-J1p" id="jKt-vZ-iEN"/>
-                                    <outlet property="ratingControl" destination="onS-Yz-48y" id="lSG-Vs-7eN"/>
+                                    <outlet property="nameLabel" destination="Vdi-Rt-jbq" id="psw-mW-CYi"/>
+                                    <outlet property="photoImageView" destination="g8Y-CC-J1p" id="4Vb-BF-Tb5"/>
+                                    <outlet property="ratingControl" destination="onS-Yz-48y" id="und-1S-gt3"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -133,6 +133,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="defaultPhoto" width="50" height="50"/>
+        <image name="defaultPhoto" width="160" height="160"/>
     </resources>
 </document>

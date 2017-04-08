@@ -15,6 +15,7 @@
 		A46FF8F71E90F7A9000A7546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */; };
 		A46FF9021E90F7A9000A7546 /* iCapucineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF9011E90F7A9000A7546 /* iCapucineTests.swift */; };
 		A46FF90F1E94A826000A7546 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FF90E1E94A826000A7546 /* RatingControl.swift */; };
+		A471B0831E9924E700DF6C3F /* FlowerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471B0821E9924E700DF6C3F /* FlowerTableViewController.swift */; };
 		A47805A31E967D1500E21525 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47805A21E967D1500E21525 /* Flower.swift */; };
 		A47805A51E96DB6500E21525 /* FlowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47805A41E96DB6500E21525 /* FlowerTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		A46FF9011E90F7A9000A7546 /* iCapucineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCapucineTests.swift; sourceTree = "<group>"; };
 		A46FF9031E90F7A9000A7546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46FF90E1E94A826000A7546 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		A471B0821E9924E700DF6C3F /* FlowerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowerTableViewController.swift; path = ../../FlowerTableViewController.swift; sourceTree = "<group>"; };
 		A47805A21E967D1500E21525 /* Flower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		A47805A41E96DB6500E21525 /* FlowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 				A46FF90E1E94A826000A7546 /* RatingControl.swift */,
 				A47805A21E967D1500E21525 /* Flower.swift */,
 				A47805A41E96DB6500E21525 /* FlowerTableViewCell.swift */,
+				A471B0821E9924E700DF6C3F /* FlowerTableViewController.swift */,
 				A46FF8ED1E90F7A9000A7546 /* Main.storyboard */,
 				A46FF8F31E90F7A9000A7546 /* Assets.xcassets */,
 				A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A471B0831E9924E700DF6C3F /* FlowerTableViewController.swift in Sources */,
 				A46FF90F1E94A826000A7546 /* RatingControl.swift in Sources */,
 				A46FF8F21E90F7A9000A7546 /* iCapucine.xcdatamodeld in Sources */,
 				A47805A31E967D1500E21525 /* Flower.swift in Sources */,
