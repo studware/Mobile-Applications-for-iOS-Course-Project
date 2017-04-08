@@ -59,7 +59,7 @@
                     <navigationItem key="navigationItem" title="Your Flowers" id="Pk3-44-pxO">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vHW-e6-HO7">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="AddItem" id="a3V-lx-sLi"/>
+                                <segue destination="YYc-e5-gYt" kind="presentation" identifier="AddItem" id="a3V-lx-sLi"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -68,7 +68,7 @@
             </objects>
             <point key="canvasLocation" x="332" y="136.28185907046478"/>
         </scene>
-        <!--Flower View Controller-->
+        <!--New Flower-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FlowerViewController" customModule="iCapucine" customModuleProvider="target" sceneMemberID="viewController">
@@ -80,8 +80,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2cd-wZ-Gpp">
-                                <rect key="frame" x="14" y="40" width="343" height="358"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2cd-wZ-Gpp">
+                                <rect key="frame" x="16" y="84" width="343" height="358"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter flower name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-Vk-0lJ">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
@@ -116,6 +116,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="2cd-wZ-Gpp" secondAttribute="trailing" id="qNK-LH-6vC"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="New Flower" id="XfE-EG-BMV">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Gd9-4Q-ti3"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="GrV-uD-Te5"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="nameTextField" destination="Cqs-Vk-0lJ" id="k1B-cu-2dt"/>
                         <outlet property="photoImageView" destination="I0x-Hv-FYr" id="DTE-rE-74N"/>
@@ -129,7 +133,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1079.2" y="137.18140929535232"/>
+            <point key="canvasLocation" x="2018.4000000000001" y="137.18140929535232"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Kjf-jq-uis">
@@ -148,6 +152,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKQ-Ua-Ei3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-607.20000000000005" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qbA-YA-ltJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YYc-e5-gYt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qy1-KV-jm4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Cok-P2-Bj5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9z-e3-FTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079.2" y="137.18140929535232"/>
         </scene>
     </scenes>
     <resources>
