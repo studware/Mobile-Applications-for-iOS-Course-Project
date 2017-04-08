@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 class FlowerViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
     
@@ -67,6 +68,26 @@ class FlowerViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         
         // Dismiss the picker.
         dismiss(animated: true, completion: nil)        
+    }
+    
+    //MARK: Navigation
+    
+    // This method lets you configure a view controller before it is presented.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        // Configure the destination view controller only when the "save" button is pressed
+        guard let button = sender as? UIBarButtonItem, button === saveButton else {
+            os_log("The 'Save' button was not pressed, cancelling", log: OSLog.default, type: .debug)
+            return
+        }
+        
+        let name = nameTextField.text ?? ""
+        let photo = photoImageView.image
+        let rating = ratingControl.rating
+        
+        // Set the flower to be passed to the source (the FlowerTableViewController) after the unwind segue.
+        flower = Flower(name: name, photo: photo, rating: rating)
     }
     
     //MARK: Actions
