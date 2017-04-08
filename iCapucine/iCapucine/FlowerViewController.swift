@@ -13,10 +13,16 @@ class FlowerViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     //MARK: Properties
     
     @IBOutlet weak var nameTextField: UITextField!
-
     @IBOutlet weak var ratingControl: RatingControl!
-
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+    
+    /*
+     This value is either passed by `FlowerTableViewController` in `prepare(for:sender:)`
+     or constructed as part of adding a new flower.
+     */
+    var flower: Flower?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
