@@ -45,13 +45,10 @@ class FlowerViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     //MARK: UITextFieldDelegate
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        
-        
         // Hide the keyboard.
         textField.resignFirstResponder()
         
         return true
-        
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
@@ -87,8 +84,19 @@ class FlowerViewController: UIViewController, UITextFieldDelegate, UIImagePicker
     //MARK: Navigation
     
     @IBAction func cancel(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
+        let isPresentingInAddFlowerMode = presentingViewController is UINavigationController
+        
+        if(isPresentingInAddFlowerMode){
+            dismiss(animated: true, completion: nil)
+        }
+        else if let owningNavigationController = navigationController {
+            owningNavigationController.popViewController(animated: true)
+        }
+        else {
+            fatalError("The FlowerViewController is not inside a navigation controller.")
+        }
     }
+    
     // This method lets you configure a view controller before it is presented.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
