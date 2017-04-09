@@ -121,9 +121,16 @@ class FlowerTableViewController: UITableViewController {
     //MARK: Actions
     @IBAction func unwindToFlowerList(sender: UIStoryboardSegue) {
         if let sourceViewController = sender.source as? FlowerViewController, let flower = sourceViewController.flower {
-            let newIndexPath = IndexPath(row: flowers.count, section: 0)
-            flowers.append(flower)
-            tableView.insertRows(at: [newIndexPath], with: .automatic)
+            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                // Update an existing flower
+                flowers[selectedIndexPath.row] = flower
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
+            }
+            else {
+                let newIndexPath = IndexPath(row: flowers.count, section: 0)
+                flowers.append(flower)
+                tableView.insertRows(at: [newIndexPath], with: .automatic)
+            }
         }
     }
     
