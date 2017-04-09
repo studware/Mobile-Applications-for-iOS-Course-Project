@@ -19,8 +19,15 @@ class FlowerTableViewController: UITableViewController {
         
         // Use the edit button item provided by the table view controller.
         navigationItem.leftBarButtonItem = editButtonItem
-
-        self.loadSampleFlowers()
+        
+        // Load any saved flowers, otherwise load sample data.
+        if let savedFlowers = loadFlowers() {
+            flowers += savedFlowers
+        }
+        else {
+            // Load the sample data.
+            loadSampleFlowers()
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -70,6 +77,7 @@ class FlowerTableViewController: UITableViewController {
         if editingStyle == .delete {
             // Delete the row from the data source
             flowers.remove(at: indexPath.row)
+            saveFlowers()
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -135,6 +143,8 @@ class FlowerTableViewController: UITableViewController {
                 flowers.append(flower)
                 tableView.insertRows(at: [newIndexPath], with: .automatic)
             }
+            
+            saveFlowers()
         }
     }
     
@@ -194,6 +204,18 @@ class FlowerTableViewController: UITableViewController {
             flower9, flower10, flower11, flower12, flower13, flower14, flower15, flower16] */
         
         flowers += [flower11, flower12, flower13, flower14, flower15, flower16]
-        
+    }
+    
+    private func saveFlowers() {
+        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(flowers, toFile: Flower.ArchiveURL.path)
+        if isSuccessfulSave {
+            os_log("Flowers successfully saved.", log: OSLog.default, type: .debug)
+        } else {
+            os_log("Failed to save flowers...", log: OSLog.default, type: .error)
+        }
+    }
+   
+    private func loadFlowers() -> [Flower]?  {
+        return NSKeyedUnarchiver.unarchiveObject(withFile: Flower.ArchiveURL.path) as? [Flower]
     }
 }
