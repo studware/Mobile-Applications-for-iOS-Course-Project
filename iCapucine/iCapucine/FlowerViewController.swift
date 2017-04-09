@@ -31,6 +31,13 @@ class FlowerViewController: UIViewController, UITextFieldDelegate, UIImagePicker
         // Handle the text field’s user input through delegate callbacks.
         nameTextField.delegate = self
         
+        if let flower = flower {
+            navigationItem.title = flower.name
+            nameTextField.text   = flower.name
+            photoImageView.image = flower.photo
+            ratingControl.rating = flower.rating
+        }
+        
         // Enable the Save button only if the text field has a valid Flower name.
         updateSaveButtonState()
     }

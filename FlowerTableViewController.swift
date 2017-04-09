@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 class FlowerTableViewController: UITableViewController {
     //MARK: Properties
@@ -87,15 +88,35 @@ class FlowerTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        switch(segue.identifier ?? "") {
+        case "AddItem":
+            os_log("Adding a new flower.", log: OSLog.default, type: .debug)
+            
+        case "ShowDetail":
+            guard let flowerDetailViewController = segue.destination as? FlowerViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedFlowerCell = sender as? FlowerTableViewCell else {
+                fatalError("Unexpected sender: \(sender)")
+            }
+            
+            guard let indexPath = tableView.indexPath(for: selectedFlowerCell) else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            let selectedFlower = flowers[indexPath.row]
+            flowerDetailViewController.flower = selectedFlower
+            
+            default:
+                fatalError("Unexpected Segue Identifier; \(segue.identifier)")            
+        }
     }
-    */
+    
 
     //MARK: Actions
     @IBAction func unwindToFlowerList(sender: UIStoryboardSegue) {
