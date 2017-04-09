@@ -89,10 +89,10 @@
 			children = (
 				A46FF8E91E90F7A9000A7546 /* AppDelegate.swift */,
 				A46FF8EB1E90F7A9000A7546 /* FlowerViewController.swift */,
+				A471B0821E9924E700DF6C3F /* FlowerTableViewController.swift */,
 				A46FF90E1E94A826000A7546 /* RatingControl.swift */,
 				A47805A21E967D1500E21525 /* Flower.swift */,
 				A47805A41E96DB6500E21525 /* FlowerTableViewCell.swift */,
-				A471B0821E9924E700DF6C3F /* FlowerTableViewController.swift */,
 				A46FF8ED1E90F7A9000A7546 /* Main.storyboard */,
 				A46FF8F31E90F7A9000A7546 /* Assets.xcassets */,
 				A46FF8F51E90F7A9000A7546 /* LaunchScreen.storyboard */,

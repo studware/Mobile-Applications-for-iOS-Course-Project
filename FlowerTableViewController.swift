@@ -97,6 +97,15 @@ class FlowerTableViewController: UITableViewController {
     }
     */
 
+    //MARK: Actions
+    @IBAction func unwindToFlowerList(sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as? FlowerViewController, let flower = sourceViewController.flower {
+            let newIndexPath = IndexPath(row: flowers.count, section: 0)
+            flowers.append(flower)
+            tableView.insertRows(at: [newIndexPath], with: .automatic)
+        }
+    }
+    
     //MARK: Private methods
     private func loadSampleFlowers() {
 /*        let photo1 = UIImage(named: "azalea")

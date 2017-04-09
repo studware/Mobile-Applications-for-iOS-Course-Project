@@ -118,7 +118,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="New Flower" id="XfE-EG-BMV">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Gd9-4Q-ti3"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="GrV-uD-Te5"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="GrV-uD-Te5">
+                            <connections>
+                                <segue destination="Gbl-Rt-Cj1" kind="unwind" unwindAction="unwindToFlowerListWithSender:" id="0Tl-Q0-dWf"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="nameTextField" destination="Cqs-Vk-0lJ" id="k1B-cu-2dt"/>
@@ -128,6 +132,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="Gbl-Rt-Cj1" userLabel="Exit" sceneMemberID="exit"/>
                 <tapGestureRecognizer id="6yA-ew-zgc">
                     <connections>
                         <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="RkU-1h-axh"/>
