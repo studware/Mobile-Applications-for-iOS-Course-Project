@@ -210,6 +210,8 @@ class FlowerTableViewController: UITableViewController {
         let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(flowers, toFile: Flower.ArchiveURL.path)
         if isSuccessfulSave {
             os_log("Flowers successfully saved.", log: OSLog.default, type: .debug)
+
+            os_log("Path to the archive: %@", log: OSLog.default, type: .debug, Flower.ArchiveURL.path)
         } else {
             os_log("Failed to save flowers...", log: OSLog.default, type: .error)
         }
